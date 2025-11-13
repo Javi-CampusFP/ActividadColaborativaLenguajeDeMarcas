@@ -1,0 +1,80 @@
+nav{
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.Titulo{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornsilk;
+    text-align: center;
+}
+
+.porquesedesuscribendemiputocanal{
+        font-size: medium;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: cornsilk;
+        text-align: center;
+}
+
+
+/* (CHAT GPT)*/
+body {
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor que pone las píldoras una al lado de otra */
+.contenedor-pildoras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;               /* espacio entre píldoras */
+  padding: 40px;
+  flex-wrap: nowrap;       /* evita que se apilen */
+  max-width: 1200px;       /* límite para el ancho total */
+  margin: 0 auto;          /* centra todo el bloque */
+}
+
+/* Estilo de las píldoras */
+.pildora {
+  flex: 1;                 /* que ambas usen el mismo espacio */
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  padding: 20px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  min-width: 300px;        /* evita que sean demasiado pequeñas */
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenido interno (por si quieres texto o imágenes) */
+.contenido {
+  text-align: center;
+}
+
+
+
+
