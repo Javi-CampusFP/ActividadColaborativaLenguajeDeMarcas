@@ -92,6 +92,9 @@ main{
     flex-direction: row;
     height: 30%;
     background-color: rgba(41, 39, 39, 0.286);
+    border: solid;
+    border-radius: 2px;
+    border-color:#FFFFFF;
     width: 100%;
 }
 .descripcionTexto,.ubicacionConexiones,.descripcionEventos{
